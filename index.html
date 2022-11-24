@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/front.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light" aria-label="navbar">
+        <div class="container-lg">
+            <a class="navbar-brand text-uppercase" href="#">Corporate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-md-2" href="#">Watch Video</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-md-2" href="#" data-bs-toggle="dropdown" aria-expanded="false">Live Demos</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-md-2" href="#" data-bs-toggle="dropdown" aria-expanded="false">Blocks</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-inline-block btn btn-secondary text-light fw-bold text-uppercase rounded-0 px-4 mx-md-2" href="#">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /navbar -->
+    <!-- main -->
+    <div class="bg-danger bg-opacity-10 py-5">
+        <div class="container-lg text-center py-5">
+            <div class="row justify-content-center">
+                <div class="col-11 col-sm-10 col-md-9 col-lg-8">
+                    <div class="h1 fw-bold">We're an independent brand and digital agency.</div>
+                    <div class="h3 my-4">Company Profile Website Template</div>
+                    <a href="#" class="btn btn-outline-secondary rounded-0 px-4">Learn how <i class="bi-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /main -->
+    <!-- slider -->
+    <div class="bg-dark">
+        <div class="container-lg py-5">
+            <section class="splide" aria-label="Splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="img/background1.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Technology Design</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="img/background2.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Master Planning</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="img/background3.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Discussion</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="img/background4.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Make a prototype</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="img/background1.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Technology Design</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="img/background2.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Master Planning</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="img/background3.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Discussion</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="img/background4.jpg" alt="" class="img-fluid border">
+                            <div class="h5 text-light my-3">Make a prototype</div>
+                            <a href="#" class="link-info text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var splide = new Splide('.splide', {
+                        type: 'loop',
+                        autoplay: true,
+                        interval: 3000,
+                        drag: 'free',
+                        snap: true,
+                        perPage: 3,
+                        perMove: 1,
+                        gap: '1.5rem',
+                        pagination: false,
+                        breakpoints: {
+                            768: {
+                                perPage: 2,
+                            },
+                            576: {
+                                perPage: 1,
+                            },
+                        },
+                    });
+                    splide.mount();
+                });
+            </script>
+        </div>
+    </div>
+    <!-- /slider -->
+    <!-- about -->
+    <div class="bg-light">
+        <div class="container-lg py-5">
+            <div class="row">
+                <div class="col-11 col-sm-10 col-md-9 col-lg-8">
+                    <div class="h2">Who we are</div>
+                    <div class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis harum obcaecati accusamus accusantium earum, officiis a cumque officia vel nesciunt deserunt sit odio! Mollitia ipsa beatae odit, officiis eveniet similique, consectetur sapiente inventore architecto exercitationem odio vel ex dolor quas.</div>
+                    <a href="#" class="btn btn-outline-secondary rounded-0 px-4">Learn how <i class="bi-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /about -->
+    <!-- work -->
+    <div class="container-lg text-center py-5">
+        <div class="h2 mb-5">How we work</div>
+        <div class="row row-cols-1 row-cols-lg-2 g-5">
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="img/background1.jpg" alt="" class="img-fluid border">
+                    </div>
+                    <div class="col">
+                        <div class="h5 mb-3">Technology Design</div>
+                        <a href="#" class="link-danger text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="img/background2.jpg" alt="" class="img-fluid border">
+                    </div>
+                    <div class="col">
+                        <div class="h5 mb-3">Master Planning</div>
+                        <a href="#" class="link-danger text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="img/background3.jpg" alt="" class="img-fluid border">
+                    </div>
+                    <div class="col">
+                        <div class="h5 mb-3">Discussion</div>
+                        <a href="#" class="link-danger text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="img/background4.jpg" alt="" class="img-fluid border">
+                    </div>
+                    <div class="col">
+                        <div class="h5 mb-3">Make a prototype</div>
+                        <a href="#" class="link-danger text-decoration-none small">Read article <i class="bi-chevron-right small"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /work -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/splide.min.js"></script>
+</body>
+
+</html>
